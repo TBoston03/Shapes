@@ -18,4 +18,10 @@ public class Circles extends Shapes{
     public double circleRadius(){
         return radius;
     }
+
+    @Override
+    public double area(){
+        return Math.pow(3.1415*radius, 2);
+    }
+
 }
